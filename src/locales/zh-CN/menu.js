@@ -49,4 +49,8 @@ export default {
   'menu.editor.flow': '流程编辑器',
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
+  'menu.player': '玩家',
+  'menu.player.list': '玩家列表',
+  'menu.personal': '个人',
+  'menu.personal.center': '个人中心',
 };

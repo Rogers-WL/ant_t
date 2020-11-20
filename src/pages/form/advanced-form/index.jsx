@@ -5,6 +5,7 @@ import { PageContainer, FooterToolbar } from '@ant-design/pro-layout';
 import { connect } from 'umi';
 import TableForm from './components/TableForm';
 import styles from './style.less';
+
 const { Option } = Select;
 const { RangePicker } = DatePicker;
 const fieldLabels = {
@@ -455,6 +456,7 @@ const AdvancedForm = ({ submitting, dispatch }) => {
   );
 };
 
+// connect是dva的东西,dva是react-redux的封装,redux可以理解成全局仓库,作用是简化组件间的值传递
 export default connect(({ loading }) => ({
   submitting: loading.effects['formAndadvancedForm/submitAdvancedForm'],
 }))(AdvancedForm);

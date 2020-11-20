@@ -15,7 +15,7 @@ export default {
   'app.settings.basic.country': 'Negara/Wilayah',
   'app.settings.basic.country-message': 'Tolong masukkan negara anda!',
   'app.settings.basic.geographic': 'Provinsi atau kota',
-  'app.settings.basic.geographic-message': 'Tolong masukkan info geografis anda!',
+  'app.settings.basic.geographic-message': 'Tolong masukkan list geografis anda!',
   'app.settings.basic.address': 'Alamat Jalan',
   'app.settings.basic.address-message': 'Tolong masukkan Alamat Jalan anda!',
   'app.settings.basic.phone': 'Nomor Ponsel',

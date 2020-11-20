@@ -15,7 +15,7 @@ export default {
   'accountandsettings.basic.country': 'Country/Region',
   'accountandsettings.basic.country-message': 'Please input your country!',
   'accountandsettings.basic.geographic': 'Province or city',
-  'accountandsettings.basic.geographic-message': 'Please input your geographic info!',
+  'accountandsettings.basic.geographic-message': 'Please input your geographic list!',
   'accountandsettings.basic.address': 'Street Address',
   'accountandsettings.basic.address-message': 'Please input your address!',
   'accountandsettings.basic.phone': 'Phone Number',

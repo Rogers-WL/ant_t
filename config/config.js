@@ -316,6 +316,40 @@ export default defineConfig({
               ],
             },
             {
+              name: 'player',
+              icon: 'user',
+              path: '/player',
+              routes: [
+                {
+                  path: '/',
+                  redirect: '/player/list',
+                },
+                {
+                  name: 'list',
+                  icon: 'smile',
+                  path: '/player/list',
+                  component: './player/list',
+                },
+              ],
+            },
+            {
+              name: 'personal',
+              icon: 'user-switch',
+              path: '/personal',
+              routes: [
+                {
+                  path: '/',
+                  redirect: '/personal/center',
+                },
+                {
+                  name: 'center',
+                  icon: 'smile',
+                  path: '/personal/center',
+                  component: './personal/center',
+                }
+              ],
+            },
+            {
               component: '404',
             },
           ],
